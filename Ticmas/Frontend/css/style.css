@@ -1,0 +1,31 @@
+p {
+  color: red;
+  width: 300px;
+}
+
+/*
+Esto es un comentario de CSS 
+*/
+
+h1 {
+  border: 2px groove #1c6ea4;
+  padding: 5px; /*padding para todos los lados */
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  margin: 20px; /*margin igual para todos lados */
+  margin-top: 10px; /*margin superior */
+  margin-right: 30px; /*margin lado derecho */
+  margin-bottom: 20px; /*margin infeerior */
+  margin-left: 5px; /*margin lado izquierdo */
+  font-weight: bold !important;
+  color: gray;
+}
+
+section {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
