@@ -1,4 +1,12 @@
-p {
+/* Usando asterisco indico que esta siendo aplcado a todos los elementos
+*/
+* {
+  color: blue;
+}
+
+p,
+span {
+  font-family: "Catamaran", sans-serif;
   color: red;
   width: 300px;
 }
@@ -8,6 +16,7 @@ Esto es un comentario de CSS
 */
 
 h1 {
+  font-family: "Roboto", sans-serif;
   border: 2px groove #1c6ea4;
   padding: 5px; /*padding para todos los lados */
   padding-top: 10px;
@@ -28,4 +37,20 @@ section {
   border: 15px solid green;
   padding: 50px;
   margin: 20px;
+}
+
+#mi_parrafo1 {
+  font-family: "Comfortaa", cursive;
+  color: blueviolet;
+  font-size: 23px;
+  border: 1px solid orange;
+}
+
+.estaesmiclase {
+  font-weight: bold !;
+  color: cadetblue;
+}
+
+section h1 {
+  color: darkolivegreen;
 }
