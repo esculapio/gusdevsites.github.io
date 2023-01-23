@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Ticmas"
+    "\\Ticmas",
+    "\\Ticmas\\javascript",
+    "\\Ticmas\\javascript\\js"
   ],
+  "SelectedNode": "\\Ticmas\\javascript\\funciones.html",
   "PreviewInSolutionExplorer": false
 }
