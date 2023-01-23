@@ -1,0 +1,50 @@
+Bootstrap: Cada fila (row) tiene 12 columnas (col). La clase container contiene a las clase row y col
+<div class="container">
+  <div class="row">
+    <div class="col">
+    <div class="col">
+  </div> 
+</div>
+
+Ancho columnas (viewports). Cada dimensión es un Breakpoint para cambiar el estilo o distribucion:
+xs <576px
+sm >=576px
+md <=768px
+lg >=992px
+xl >=1200px
+xxl >=1400px
+
+****************************************************************************************************************************************
+Aprende HTML y CSS - Curso Desde Cero
+https://www.youtube.com/watch?v=XqFR2lqBYPs&t=4s
+****************************************************************************************************************************************
+****************************************************************************************************************************************
+Aprende Bootstrap 5 - Curso de Bootstrap desde Cero
+https://www.youtube.com/watch?v=QCw0L6FupQ0
+****************************************************************************************************************************************
+****************************************************************************************************************************************
+
+
+https://yeisondaza.com/optimizar-sitio-web-preload-prefech
+
+https://cssgenerator.or
+
+https://github.com/iamismile/web-dev-resources
+
+https://lecoupa.github.io/awesome-cheatsheets/
+
+https://alialaa.github.io/css-grid-cheat-sheet/
+
+https://webdevresources.info/
+
+https://coolors.co/
+
+http://colormind.io/bootstrap/
+
+https://www.shapedivider.app/
+
+https://animate.style/
+
+https://tympanus.net/Development/TextInputEffects/index.html
+
+https://fjolt.com/article/meta-tag-ref-html-quick-start
