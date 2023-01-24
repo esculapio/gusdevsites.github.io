@@ -1,3 +1,5 @@
+https://getbootstrap.com/
+----------------------------------------------------------------------------------------------------------
 Bootstrap: Cada fila (row) tiene 12 columnas (col). La clase container contiene a las clase row y col
 <div class="container">
   <div class="row">
@@ -14,6 +16,12 @@ lg >=992px
 xl >=1200px
 xxl >=1400px
 
+CONTENEDORES en Bootstrap: Elemento en html que va a contener toda la estructura u otros elementos html
+Pueden ser:
+.container: Contenedor responsivo con ancho máximo FIJO dependiente del tamaño del dispositivo. No se estira para llenar la ventana
+
+.container-fluid: Contenedor responsivo que cubre el 100% del ancho de la ventana (SI se estira).
+
 ****************************************************************************************************************************************
 Aprende HTML y CSS - Curso Desde Cero
 https://www.youtube.com/watch?v=XqFR2lqBYPs&t=4s
@@ -21,6 +29,8 @@ https://www.youtube.com/watch?v=XqFR2lqBYPs&t=4s
 ****************************************************************************************************************************************
 Aprende Bootstrap 5 - Curso de Bootstrap desde Cero
 https://www.youtube.com/watch?v=QCw0L6FupQ0
+
+https://youtu.be/QCw0L6FupQ0?t=4206
 ****************************************************************************************************************************************
 ****************************************************************************************************************************************
 

@@ -1,0 +1,95 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.accessibilitySupport": "off",
+  "editor.guides.bracketPairs": true,
+  "editor.suggestSelection": "first",
+  "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.wordWrapColumn": 80,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.trailingComma": "all",
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sql]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "[xml]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeActionsOnSave.rules": null,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"],
+
+  "workbench.colorTheme": "Community Material Theme Ocean",
+  "workbench.iconTheme": "file-icons",
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.editor.untitled.experimentalLanguageDetection": true,
+
+  "sync.gist": "b11026961a6a7d748209520eab95b317",
+  "tabnine.experimentalAutoImports": true,
+  "kite.showWelcomeNotificationOnStartup": false,
+  "python.pythonPath": "P:\\Python\\python.exe",
+  "python.linting.pylintArgs": ["--load-plugins pylint_django"],
+  "python.languageServer": "Pylance",
+  "python.defaultInterpreterPath": "P:\\Python\\python.exe",
+  "ruby.interpreter.commandPath": "P:\\Entornos\\Ruby\\bin\\",
+  "ruby.rubocop.executePath": "P:\\Entornos\\Ruby\\bin\\",
+  "powershell.cwd": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "powershell.powerShellAdditionalExePaths": {
+    "Powershell": "%SystemRoot%\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"
+  },
+  "compareHelper.defaultExternalTools": {
+    "images": "\"C:\\Program Files\\Perforce\\p4merge.exe\"",
+    "text": "\"C:\\Program Files\\Perforce\\p4merge.exe\""
+  },
+  "compareHelper.externalTools": [],
+
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.windows": "C:\\Users\\Gustavo\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+    "vscode-kubernetes.helm-path.windows": "C:\\Users\\Gustavo\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe"
+  },
+  "code-runner.runInTerminal": true,
+
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "git.autofetch": true,
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "emmet.preferences": {
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true
+  },
+
+  "html-css-class-completion.enableEmmetSupport": true,
+  "html-css-class-completion.JavaScriptLanguages": [
+    "javascript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+
+  "projectManager.git.baseFolders": [
+    "C:\\Desarrollo\\gusdevsites.github.io",
+    "P:\\00Desarrollos\\gusdevsites.github.io"
+  ],
+  "projectManager.groupList": true,
+  "redhat.telemetry.enabled": true
+}
