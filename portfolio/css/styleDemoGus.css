@@ -1,0 +1,71 @@
+div {
+  height: 250px;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  margin: 20px;
+}
+
+#contenedor {
+  height: 250px;
+  background-color: purple;
+  color: white;
+  font-size: 50px;
+  margin: 20px;
+}
+
+#contenedorFluido {
+  /** Elemento por Id*/
+  height: 250px;
+  background-color: greenyellow;
+  color: blue;
+  font-size: 50px;
+  margin: 20px;
+}
+#row1 {
+  height: 250px;
+  background-color: blue;
+  color: white;
+  font-size: 50px;
+  margin: 20px;
+}
+
+#col1 {
+  height: 250px;
+  background-color: yellow;
+  color: black;
+  font-size: 50px;
+  margin: 20px;
+}
+
+#col2 {
+  height: 250px;
+  background-color: blue;
+  color: white;
+  font-size: 50px;
+  margin: 20px;
+}
+
+#rowFluid2 {
+  height: 250px;
+  background-color: grey;
+  color: white;
+  font-size: 50px;
+  margin: 20px;
+}
+
+#colFluid1 {
+  height: 250px;
+  background-color: rgb(245, 3, 15);
+  color: white;
+  font-size: 50px;
+  margin: 20px;
+}
+
+#colFluid2 {
+  height: 250px;
+  background-color: green;
+  color: white;
+  font-size: 50px;
+  margin: 20px;
+}
