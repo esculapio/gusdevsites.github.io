@@ -25,7 +25,8 @@ Pueden ser:
 .container -zz: Es un mix de los anteriores. Cuando llega al punto de breakpoint pasa de comportarse como un container normal a un container-fluid.
 ----------------------------------------------------------------------------------------------------------
 ESTRUCTURA DE LA GRID: Los elementos de una fila pueden ocupar varias columnas (ej: .col-sm-5 MAS .col-sm-7). Si sumasen mas de 12 columnas, las adicionales se colocarían en una linea nueva
-
+padding:espacio interno limte entre elemento y su contenido
+margin:margen separacion filas externo (desde contenidop hacia afuera)
 
 ****************************************************************************************************************************************
 Como configurar Eslint y Prettier en un proyecto de React
@@ -49,7 +50,13 @@ https://www.youtube.com/watch?v=XqFR2lqBYPs&t=4s
 Aprende Bootstrap 5 - Curso de Bootstrap desde Cero
 https://www.youtube.com/watch?v=QCw0L6FupQ0
 
-https://youtu.be/QCw0L6FupQ0?t=5003
+https://www.youtube.com/watch?v=QCw0L6FupQ0&t=3177s
+****************************************************************************************************************************************
+****************************************************************************************************************************************
+QUE ES TAILWIND CSS
+
+https://www.youtube.com/watch?v=2NuGuBpP5fo
+https://www.youtube.com/watch?v=3xlUAMXui2c&list=PLPl81lqbj-4JdoHDiERR2ptkw9zRggXAL
 ****************************************************************************************************************************************
 ****************************************************************************************************************************************
 
