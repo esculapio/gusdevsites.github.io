@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <!-- Metadatos -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Titulo</title>
-    <link rel="icon" type="text/png" href="images/favicon.png" />
-    <meta name="description" content="Description of my website" />
+    <meta name="author" content="Gustavo D Ramos" />
+    <meta
+      name="keywords"
+      content="cv, portfolio, resume, HTML, CSS, Javascript"
+    />
+    <meta name="description" content="Curriculum Gustavo D Ramos" />
     <meta name="robots" content="index,follow" />
-    <link rel="canonical" href="URL for this page" />
-    <meta property="og:title" content="My Website" />
+    <meta property="og:title" content="Portfolio Personal" />
     <meta property="og:locale" content="en_GB (or other locality code)" />
-    <meta property="og:description" content="Description of my website" />
+    <meta property="og:description" content="Curriculum Gustavo D Ramos" />
+    <!-- Título -->
+    <title>Gustavo D Ramos | CV & Portfolio Personal</title>
+    <!-- Favicon -->
+    <link rel="icon" type="text/png" href="images/favicon.png" />
+    <!-- Resource links -->
+    <link rel="canonical" href="https://gusdevsites.github.io" />
     <!-- Custom CSS órden de precedencia de menor a mayor-->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -25,11 +34,6 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
 
     <!-- Aqui importo fuentes desde google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,6 +45,50 @@
   </head>
   <body>
     <!-- Website Body -->
+    <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbar-toggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/favicon.png"
+              alt="Logo página web"
+              width="30px"
+              height="30px"
+            />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Sobre mi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Formación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!--  INICIO Ejemplo de Contenedores  -->
     <!-- <div id="contenedor" class="container text-center">
@@ -64,5 +112,10 @@
 
     <!-- JS Scripts -->
     <script src="js/function.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

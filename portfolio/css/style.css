@@ -1,7 +1,24 @@
-div {
+.divGus {
   height: 250px;
   background-color: purple;
   color: white;
   font-size: 50px;
   margin: 20px;
+}
+
+/* Barra de Navegacion */
+.navbar {
+  padding: 2rem;
+  background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: none;
+  }
 }
