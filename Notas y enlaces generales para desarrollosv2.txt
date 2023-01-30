@@ -1,0 +1,105 @@
+https://getbootstrap.com/
+----------------------------------------------------------------------------------------------------------
+Bootstrap: Cada fila (row) tiene 12 columnas (col). La clase container contiene a las clase row y col
+<div class="container">
+  <div class="row">
+    <div class="col">
+    <div class="col">
+  </div> 
+</div>
+
+Ancho columnas (viewports - tambien sirve como parametro de los container de la forma .container-zz). Cada dimensión es un Breakpoint para cambiar el estilo o distribucion:
+xs <576px
+sm >=576px
+md <=768px
+lg >=992px
+xl >=1200px
+xxl >=1400px
+
+CONTENEDORES en Bootstrap: Elemento en html que va a contener toda la estructura u otros elementos html
+Pueden ser:
+.container: Contenedor responsivo con ancho máximo FIJO dependiente del tamaño del dispositivo. No se estira para llenar la ventana
+
+.container-fluid: Contenedor responsivo que cubre el 100% del ancho de la ventana (SI se estira).
+
+.container -zz: Es un mix de los anteriores. Cuando llega al punto de breakpoint pasa de comportarse como un container normal a un container-fluid.
+----------------------------------------------------------------------------------------------------------
+ESTRUCTURA DE LA GRID: Los elementos de una fila pueden ocupar varias columnas (ej: .col-sm-5 MAS .col-sm-7). Si sumasen mas de 12 columnas, las adicionales se colocarían en una linea nueva
+
+
+****************************************************************************************************************************************
+Como configurar Eslint y Prettier en un proyecto de React
+https://www.youtube.com/watch?v=1tYJqTDkvUQ
+
+ESLint setup with prettier for any JS Project in VS Code
+https://www.youtube.com/watch?v=eMgLHOrDkAs
+
+Configurar EsLint y Prettier junto con VScode
+https://dev.to/mrluisfer/configurar-eslint-prettier-junto-con-vscode-3h00
+
+https://stackoverflow.com/questions/66215112/syntax-error-error-no-eslint-configuration-found-in-when-i-tried-to-npm-run
+https://stackoverflow.com/questions/65219294/how-do-i-fix-no-eslint-configuration-found-for-files-outside-the-folder-with
+
+****************************************************************************************************************************************
+****************************************************************************************************************************************
+Aprende HTML y CSS - Curso Desde Cero
+https://www.youtube.com/watch?v=XqFR2lqBYPs&t=4s
+****************************************************************************************************************************************
+****************************************************************************************************************************************
+Aprende Bootstrap 5 - Curso de Bootstrap desde Cero
+https://www.youtube.com/watch?v=QCw0L6FupQ0
+
+https://youtu.be/QCw0L6FupQ0?t=5003
+****************************************************************************************************************************************
+****************************************************************************************************************************************
+
+https://webdevresources.info/
+
+https://github.com/iamismile/web-dev-resources
+
+https://yeisondaza.com/optimizar-sitio-web-preload-prefech
+
+https://cssgenerator.or
+
+https://wweb.dev/resources/css-separator-generator/
+
+https://getwaves.io/
+
+https://bennettfeely.com/clippy/
+
+
+
+https://lecoupa.github.io/awesome-cheatsheets/
+
+https://every-layout.dev/layouts/
+
+https://alialaa.github.io/css-grid-cheat-sheet/
+
+https://cssgrid-generator.netlify.app/
+
+https://coolors.co/
+
+http://colormind.io/template/material-dashboard/
+
+https://flexbox.malven.co/
+
+https://mac-blog.org.ua/css-3-media-queries-cheat-sheet
+
+http://colormind.io/bootstrap/
+
+https://www.shapedivider.app/
+
+https://animate.style/
+
+https://tympanus.net/Development/TextInputEffects/index.html
+
+https://fjolt.com/article/meta-tag-ref-html-quick-start
+
+https://ishadeed.com/article/learn-css-positioning/#demo
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+Requi nueva: servicio ya empleado el año pasado. Grilla de ítems con cada CC (construccion)
+
+

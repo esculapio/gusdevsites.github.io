@@ -35,17 +35,17 @@
       crossorigin="anonymous"
     />
 
-    <!-- Aqui importo fuentes desde google Fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Comfortaa:wght@300&family=Roboto:wght@100&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Concert+One&family=Nunito&family=Roboto:wght@400;900&family=Rubik+Dirt&family=Source+Code+Pro:ital@0;1&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <!-- Website Body -->
-    <!-- Barra de Navegacion -->
+    <!--==========Barra de Navegacion==========-->
     <nav class="navbar navbar-expand-md bg-body-tertiary">
       <div class="container-fluid">
         <button
@@ -90,7 +90,44 @@
       </div>
     </nav>
 
-    <!--  INICIO Ejemplo de Contenedores  -->
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-img-principal rounded-circle"
+          src="images/GusCVFrameRedondo.png"
+          alt="Foto Perfil Gustavo Ramos"
+        />
+        <h1>Hola!! Mi nombre es Gustavo Ramos</h1>
+        <h2>
+          Soy:
+          <div id="typed-strings">
+            <p>> Ingeniero en Informática...</p>
+            <p>> Especialista en Infraestructura IT...</p>
+            <p>> Administrador de Bases de Datos...</p>
+            <p>> Soporte de 3er Nivel...</p>
+            <p>> Desarrollador Frontend..</p>
+            <p>> Apasionado por la tecnología...</p>
+            <p>> Jugador de Equipos...</p>
+            <p><em>> Padre y Esposo.</em>.</p>
+          </div>
+          <span id="typed"></span>
+        </h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="images/hero-inferior.svg"
+          alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React."
+        />
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+
+    <!--==========INICIO Ejemplo de Contenedores==========-->
     <!-- <div id="contenedor" class="container text-center">
       Container
       <div id="row1" class="row">
@@ -110,12 +147,27 @@
     </div> -->
     <!--  FIN Ejemplo de Contenedores -->
 
-    <!-- JS Scripts -->
+    <!--==========JS Scripts==========-->
     <script src="js/function.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!--/* ==========Parámetros Typed.js==========-->
+    <script>
+      var typed = new Typed('#typed', {
+        stringsElement: '#typed-strings',
+        backSpaced: 40,
+        typeSpeed: 25,
+        loop: true,
+        loopCount: Infinity,
+        showCursor: true,
+        cursorChar: '|',
+        autoInsertCss: true,
+      });
+    </script>
   </body>
 </html>
