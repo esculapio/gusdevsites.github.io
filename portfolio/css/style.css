@@ -96,7 +96,9 @@ h1 {
   height: 600px;
   margin: 20px;
 }
+
 .hero-principal h2 {
+  align-items: left;
   padding: 0.25rem;
   color: #615151;
   font-family: 'Source Code Pro', monospace;

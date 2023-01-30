@@ -101,20 +101,22 @@
           alt="Foto Perfil Gustavo Ramos"
         />
         <h1>Hola!! Mi nombre es Gustavo Ramos</h1>
-        <h2>
-          Soy:
-          <div id="typed-strings">
-            <p>> Ingeniero en Informática...</p>
-            <p>> Especialista en Infraestructura IT...</p>
-            <p>> Administrador de Bases de Datos...</p>
-            <p>> Soporte de 3er Nivel...</p>
-            <p>> Desarrollador Frontend..</p>
-            <p>> Apasionado por la tecnología...</p>
-            <p>> Jugador de Equipos...</p>
-            <p><em>> Padre y Esposo.</em>.</p>
-          </div>
-          <span id="typed"></span>
-        </h2>
+        <div>
+          <h2>
+            Soy:
+            <div id="typed-strings">
+              <p>> Ingeniero en Informática...</p>
+              <p>> Especialista en Infraestructura IT...</p>
+              <p>> Administrador de Bases de Datos...</p>
+              <p>> Soporte de 3er Nivel...</p>
+              <p>> Desarrollador Frontend..</p>
+              <p>> Apasionado por la tecnología...</p>
+              <p>> Jugador de Equipos...</p>
+              <p><em>> Padre y Esposo.</em>.</p>
+            </div>
+            <span id="typed"></span>
+          </h2>
+        </div>
       </div>
       <div class="hero-inferior">
         <img
@@ -160,8 +162,10 @@
     <script>
       var typed = new Typed('#typed', {
         stringsElement: '#typed-strings',
-        backSpaced: 40,
-        typeSpeed: 25,
+        backSpaced: 10,
+        typeSpeed: 40,
+        backDelay: 500,
+        startDelay: 500,
         loop: true,
         loopCount: Infinity,
         showCursor: true,
