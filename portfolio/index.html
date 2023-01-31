@@ -22,7 +22,7 @@
     <!-- Resource links -->
     <link rel="canonical" href="https://gusdevsites.github.io" />
     <!-- Custom CSS órden de precedencia de menor a mayor-->
-    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <!-- FONTAWESOME-->
     <link rel="stylesheet" href="css/all.min.css" />
@@ -44,7 +44,6 @@
     />
   </head>
   <body>
-    <!-- Website Body -->
     <!--==========Barra de Navegacion==========-->
     <nav class="navbar navbar-expand-md bg-body-tertiary">
       <div class="container-fluid">
@@ -77,13 +76,13 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Formación</a>
+              <a class="nav-link" href="#formacion">Formación</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiencia</a>
+              <a class="nav-link" href="#experiencia">Experiencia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -102,20 +101,7 @@
         />
         <h1>Hola!! Mi nombre es Gustavo Ramos</h1>
         <div>
-          <h2>
-            Soy:
-            <div id="typed-strings">
-              <p>> Ingeniero en Informática...</p>
-              <p>> Especialista en Infraestructura IT...</p>
-              <p>> Administrador de Bases de Datos...</p>
-              <p>> Soporte de 3er Nivel...</p>
-              <p>> Desarrollador Frontend..</p>
-              <p>> Apasionado por la tecnología...</p>
-              <p>> Jugador de Equipos...</p>
-              <p><em>> Padre y Esposo.</em>.</p>
-            </div>
-            <span id="typed"></span>
-          </h2>
+          <h2>Soy:\> <span id="typed"></span></h2>
         </div>
       </div>
       <div class="hero-inferior">
@@ -128,7 +114,55 @@
     </section>
 
     <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo texto-blanco">Conoce a Gustavo Ramos</h2>
+        <p class="seccion-texto texto-blanco">
+          Profesional informático graduado, con más de 20 años de experiencia en
+          el área de TI. Apasionado por la tecnología, buscando siempre marcar
+          la diferencia, con visión de Liderazgo, facilidad y adaptabilidad para
+          trabajo en Equipos, Planificación Estratégica, control del costos de
+          TI. Habilidades y experiencia para la comunicación y la coordinación
+          de personas, capacidad de Análisis para la búsqueda de la mejor
+          solución posible. Desarrollo de Plataformas de Capacitación, Proyectos
+          HSEC. Buscando siempre la optimización de recursos.
+        </p>
+      </div>
+    </section>
+    <!-- Formación -->
+    <section class="formacion seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Cursos -->
+          <div class="col-12 col-md-4">Cursos</div>
+          <!-- Grado -->
+          <div class="col-12 col-md-4">Grado</div>
+          <!-- Postgrado -->
+          <div class="col-12 col-md-4">Postgrado</div>
+        </div>
+        <h2></h2>
+        <p></p>
+      </div>
+    </section>
 
+    <!-- Experiencia -->
+    <section class="experiencia seccion-oscura">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12 col-md-4">Experiencia</div>
+        </div>
+        <h2></h2>
+        <p></p>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contacto seccion-clara">
+      <div>
+        <h2></h2>
+        <p></p>
+      </div>
+    </section>
     <!--==========INICIO Ejemplo de Contenedores==========-->
     <!-- <div id="contenedor" class="container text-center">
       Container
@@ -161,7 +195,16 @@
     <!--/* ==========Parámetros Typed.js==========-->
     <script>
       var typed = new Typed('#typed', {
-        stringsElement: '#typed-strings',
+        strings: [
+          'Ingeniero en Informática...',
+          'Especialista en Infraestructura IT...',
+          'Administrador de Bases de Datos...',
+          'Soporte de 3er Nivel...',
+          'Desarrollador Frontend..',
+          'Apasionado por la tecnología...',
+          'Jugador de Equipos...',
+          'Padre y Esposo.',
+        ],
         backSpaced: 10,
         typeSpeed: 40,
         backDelay: 500,
