@@ -70,21 +70,21 @@ h1 {
   font-size: 5rem;
   font-family: 'Concert One', cursive;
   font-weight: 900;
-  color: #1e1e3f;
+  color: #001219;
 
   /* font-family: 'Rubik Dirt', cursive; */
 }
 
 .seccion-oscura {
-  background-color: #2b2d42;
+  background-color: #005f73;
 }
 
 .seccion-clara {
-  background-color: #edf2f4;
+  background-color: #edf6f9;
 }
 
 .texto-blanco {
-  color: #edf2f4;
+  color: #edf6f9;
 }
 
 .texto-oscuro {
@@ -103,6 +103,11 @@ h1 {
   font-family: 'Nunito', sans-serif;
   padding: 15px 0;
 }
+
+.badge.badge-mio {
+  background-color: #0a9396;
+}
+
 /* ==========Sección Hero========== */
 .hero {
   background-color: #f5f6f7;
@@ -148,24 +153,62 @@ h1 {
 
 /* ==========Sección Formación========== */
 .formacion {
-  padding: 40px;
+  padding: 40px 40px 60px 40px;
 }
 
-.formacion .row div {
-  height: 250px;
-  background-color: purple;
-  border: 3px solid orange;
+.formacion .columna {
+  padding: 20px;
+  border: 2px solid #006d77;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
 }
+
+.formacion .columna:hover {
+  color: #edf6f9;
+  background-color: #005f73;
+}
+
+.formacion .detalle {
+  text-align: left;
+  justify-content: space-evenly;
+}
+
+.formacion i {
+  font-size: 2.5rem;
+  color: #edf6f9;
+  background-color: #006d77;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+.formacion-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Concert One', cursive;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 14px;
+  margin: 10px 0;
+}
+.badges {
+  margin: 5px;
+}
+
 /* ==========Sección Experiencia========== */
 .experiencia {
   padding: 40px;
 }
 
+/* AQUI LO QUE VOY A ELIMINAR */
 .experiencia .row div {
   height: 250px;
   background-color: purple;
   border: 3px solid orange;
 }
+/* FIN DE LO QUE VOY A ELIMINAR */
 
 /* ==========Sección Contacto========== */
 
