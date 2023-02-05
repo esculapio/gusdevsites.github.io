@@ -81,6 +81,7 @@ h1 {
 
 .seccion-clara {
   background-color: #edf6f9;
+  padding: 10px 0;
 }
 
 .texto-blanco {
@@ -91,11 +92,28 @@ h1 {
   color: #1e1e3f;
 }
 
+.texto-titulo-experiencia {
+  font-size: 1.2rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  color: #0a9396;
+}
+
+.texto-descripcion-experiencia {
+  font-size: 1rem;
+  font-family: 'Nunito', sans-serif;
+  color: #001219;
+}
 .seccion-titulo {
   font-size: 2.5rem;
   font-family: 'Concert One', cursive;
   font-weight: 900;
   padding: 15px 0;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #6d6969;
 }
 
 .seccion-texto {
@@ -116,7 +134,7 @@ h1 {
 }
 
 .hero-principal {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .hero-img-principal {
@@ -126,7 +144,7 @@ h1 {
 }
 
 .hero-principal h2 {
-  padding: 0.25rem;
+  padding: 0.5rem;
   color: #615151;
   font-family: 'Source Code Pro', monospace;
   font-size: 1.5rem;
@@ -135,6 +153,7 @@ h1 {
 }
 
 .hero-inferior-imagen {
+  padding: 0.5rem;
   width: 600px;
   height: 600px;
   margin: 20px;
@@ -143,7 +162,7 @@ h1 {
 /* ==========Sección Sobre Mí========== */
 .sobre-mi {
   height: 300px;
-  padding: 10px;
+  padding: 2rem;
 }
 
 .sobre-mi .contenedor {
@@ -153,7 +172,7 @@ h1 {
 
 /* ==========Sección Formación========== */
 .formacion {
-  padding: 40px 40px 60px 40px;
+  padding: 2rem;
 }
 
 .formacion .columna {
@@ -198,17 +217,61 @@ h1 {
 }
 
 /* ==========Sección Experiencia========== */
-.experiencia {
+.experiencias-recientes {
   padding: 40px;
 }
 
-/* AQUI LO QUE VOY A ELIMINAR */
-.experiencia .row div {
-  height: 250px;
-  background-color: purple;
-  border: 3px solid orange;
+.experiencias-recientes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
 }
-/* FIN DE LO QUE VOY A ELIMINAR */
+
+.experiencias-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.experiencia {
+  position: relative;
+}
+
+.experiencia:hover img {
+  opacity: 0.2;
+}
+
+.experiencia:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
 
 /* ==========Sección Contacto========== */
 
