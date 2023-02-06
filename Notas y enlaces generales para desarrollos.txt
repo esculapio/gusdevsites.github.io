@@ -157,3 +157,15 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 Requi nueva: servicio ya empleado el año pasado. Grilla de ítems con cada CC (construccion)
 
 
+**************
+GIT CREAR CLAVES SSH
+GITHUB / GITLAB: ssh-keygen -t ed25519 -C "GitLab SSH Par" // o cualquier otro comentario, yo vengo usando mi mail
+BITBUCKET: ssh-keygen -t ed25519 -b 4096 -C "{username@emaildomain.com}" -f {ssh-key-name}
+
+Ferchu.BBKTG1t-23#
+
+Clave recuperacion Bitbicket: H3WP C7V5 HA8M N58U U52D OZ2I
+Cod Recuperacion Microsoft gusxbox@live.com.ar M766G-79E9Y-E8F4E-SRR5X-A4TQS
+
+
+ssh-keygen -t ed25519 -b 4096 -C "gustavodramos@gmail.com" -f id_ed25519_Bitbucket
