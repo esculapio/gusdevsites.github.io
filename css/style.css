@@ -202,13 +202,19 @@ h1 {
 
 /* ==========Sección Sobre Mí========== */
 .sobre-mi {
-  min-height: 500px;
+  min-height: 200px;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .sobre-mi .contenedor {
-  min-height: 600px;
+  min-height: 200px;
   text-align: center;
+  margin: 20px;
+  padding: 0.5rem;
 }
 
 /* ==========Sección Formación========== */
