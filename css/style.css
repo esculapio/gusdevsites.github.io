@@ -79,8 +79,6 @@ h1 {
   font-family: 'Concert One', cursive;
   font-weight: 900;
   color: #001219;
-
-  /* font-family: 'Rubik Dirt', cursive; */
 }
 
 .seccion-oscura {
@@ -123,16 +121,6 @@ h1 {
   color: #6c757d !important;
 }
 
-.page-section h3.section-subheading,
-.page-section .section-subheading.h3 {
-  font-size: 1rem;
-  font-weight: 400;
-  font-style: italic;
-  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  margin-bottom: 4rem;
-}
 .texto-titulo-experiencia {
   font-size: 1.2rem;
   font-family: 'Nunito', sans-serif;
@@ -146,27 +134,26 @@ h1 {
   color: #001219;
 }
 
-.seccion-titulo {
-  font-size: 2.5rem;
-  font-family: 'Concert One', cursive;
-  font-weight: 900;
-  padding: 15px 0;
-}
-
-.seccion-descripcion {
-  font-size: 1.2rem;
-  color: #6d6969;
-}
-
-.seccion-texto {
-  font-size: size 1.2rem;
+.texto-footer {
+  font-size: 1rem;
   font-family: 'Nunito', sans-serif;
-  padding: 15px 0;
+  color: #cecfd1;
 }
+
 .badge.badge-mio {
   background-color: #0a9396;
 }
 
+.page-section h3.section-subheading,
+.page-section .section-subheading.h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  margin-bottom: 4rem;
+}
 /* ==========Sección Hero========== */
 .hero {
   background-color: #f5f6f7;
@@ -463,143 +450,6 @@ h1 {
   }
 }
 
-/* ==========Sección Tecnologias==========
-/* Small Screens max width 640px */
-@media screen and (max-width: 640px) {
-  .skillsGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    grid-auto-rows: auto;
-    height: auto;
-  }
-  .skillsGrid img {
-    height: 75px;
-    width: 75px;
-  }
-  .skills {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-}
-/* Medium Screens min width 641px change to 4 columns */
-@media screen and (min-width: 641px) {
-  .skillsGrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    grid-auto-rows: auto;
-    height: auto;
-  }
-  .skillsGrid img {
-    height: 100px;
-    width: 100px;
-  }
-  .skills {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-/* Large Screens */
-@media screen and (min-width: 1080px) {
-  .skillsGrid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 50px;
-    grid-auto-rows: auto;
-    height: auto;
-  }
-
-  .skillsGrid img {
-    height: 150px;
-    width: 150px;
-  }
-}
-
-.skills {
-  background-color: whitesmoke;
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-*/
-
-
-/* ==========Sección Experiencia========== */
-.experiencias-recientes {
-  padding: 40px;
-}
-
-.experiencias-recientes img {
-  height: 100%;
-  width: 100%;
-  padding: 10px;
-  border-radius: 10px;
-  display: block;
-  transition: all 0.2s ease;
-}
-
-.experiencias-contenedor {
-  padding-top: 60px;
-  margin-bottom: 40px;
-}
-
-.overlay {
-  transition: all 0.2s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.overlay p {
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-.experiencia {
-  position: relative;
-}
-
-.experiencia:hover img {
-  opacity: 0.2;
-}
-
-.experiencia:hover .overlay {
-  opacity: 1;
-}
-
-.overlay .iconos-contenedor {
-  display: flex;
-}
-
-.overlay i {
-  color: black;
-  font-size: 60px;
-  margin: 10px;
-}
-
 /* ==========Sección Contacto========== */
 .contacto {
   height: 300px;
@@ -647,7 +497,7 @@ footer {
 .social-icons .social-icon {
   height: 3.5rem;
   width: 3.5rem;
-  display: inline flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 2px;
@@ -670,11 +520,6 @@ footer {
   font-size: 3rem;
 }
 
-.derechos-de-autor {
-  font-size: 15px;
-  color: #aeaeae;
-  padding: 20px;
-}
 /* ==========Media Queries========== */
 @media screen and (max-width: 400px) {
   .overlay p {
