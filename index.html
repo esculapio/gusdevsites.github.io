@@ -658,19 +658,16 @@
             <div class="col-md-6 col-lg-5 col-xl-4">
               <div>
                 <form
-                  id="gform"
-                  class="p-3 p-xl-4"
-                  method="post"
-                  data-email="example@email.net"
-                  action="https://script.google.com/macros/s/AKfycbwlHADQJKVSosKchiwIl-iJLpB2yeTWvNaxnanQ1OmI9UhU6Du9MsTNMFN11WKlgGIa/exec"
+                  action="https://formsubmit.co/40f0ef640bce84bb7eb5f606f6152339"
+                  method="POST"
                 >
                   <!-- Start: Success Example -->
                   <div class="mb-4">
                     <input
                       class="form-control"
-                      type="text"
-                      id="name-2"
-                      name="name"
+                      type="nombre"
+                      id="nombre"
+                      name="nombre"
                       placeholder="Nombre"
                       required=""
                     />
@@ -691,8 +688,9 @@
                   <div class="mb-3">
                     <textarea
                       class="form-control"
-                      id="message-1"
-                      name="message"
+                      type="mensaje"
+                      id="mensaje"
+                      name="mensaje"
                       rows="6"
                       placeholder="Mensaje"
                       required=""
@@ -703,6 +701,17 @@
                       Enviar
                     </button>
                   </div>
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://esculapio.github.io/portfolio/"
+                  />
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    value="Nuevo Contacto!"
+                  />
+                  <input type="hidden" name="_captcha" value="false" />
                 </form>
               </div>
             </div>
@@ -783,7 +792,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
+    <script
+      data-cfasync="false"
+      type="text/javascript"
+      src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"
+    ></script>
     <!--/* ==========Parámetros Typed.js==========-->
     <script>
       var typed = new Typed('#typed', {

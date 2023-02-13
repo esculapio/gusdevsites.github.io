@@ -475,6 +475,9 @@ h1 {
   color: #0a9396;
 }
 
+.formulario {
+  display: none;
+}
 /* ==========Pie de pagina (footer)========== */
 
 footer {
